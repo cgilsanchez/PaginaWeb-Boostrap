@@ -18,7 +18,7 @@
 
 /*********************hero*********************/
 #hero {
-    background-image: url(../imagenes/vikingos-temporada-6-donde-ver-online.jpg);
+    background-image: url(../imagenes/portada100.jpg);
     height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,9 +34,21 @@
 
 
     /*******************footer************************/
-    .pl-5{
-        padding-left: 5rem;
+    
+
+    .footer{
+        text-align: center;
+        
     }
+
+    #sectionfooter{
+        border-left: solid rgb(99, 99, 99);
+    }
+
+    
+
+    
+
     .mapa iframe{
         width: 70%;
         height: 150%;
@@ -65,6 +77,9 @@
         .titulo-hero {
             width: 50%;
         }
+        #sectionfooter{
+            border: none;
+        }
         }
     
         @media only screen and (width<=600px) {
@@ -73,6 +88,8 @@
         }
         }
     
+
+
 
 
 
